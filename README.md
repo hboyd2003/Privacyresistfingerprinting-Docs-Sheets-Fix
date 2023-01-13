@@ -7,6 +7,7 @@ WARNING! To fix this issue window.devicePixelRatio is set to its real value when
 1. Download the script on [Greasyfork](https://greasyfork.org/en/scripts/453863-privacy-resistfingerprinting-blurry-google-docs-sheets-fix) or [Github](https://github.com/hboyd2003/Privacyresistfingerprinting-Docs-Sheets-Fix) and install it.
 2. Next we need to get your actual window.devicePixelRatio.
 3. In Firefox turn off privacy.resistfingerprinting and open developer tools on any webpage.
-4. In the developer tools console enter "window.devicePixelRatio" and copy the result
-5. Edit the script and replace the default value with the one you copied.
-6. Turn back on privacy.resistfingerprinting
+4. In the developer tools console enter "window.devicePixelRatio" and copy the result.
+      - Make sure the script is off!
+6. Edit the script and replace the default value with the one you copied.
+7. Turn back on privacy.resistfingerprinting
